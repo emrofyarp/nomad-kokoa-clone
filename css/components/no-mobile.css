@@ -1,0 +1,34 @@
+#no-mobile {
+  position: absolute;
+  z-index: 3;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 646px) {
+  .status-bar,
+  .alt-header,
+  .main-screen,
+  .main-chat,
+  form.reply,
+  .screen-header,
+  #friends-display-link,
+  .friends-screen,
+  .nav {
+    display: none;
+  }
+  body#chat-screen {
+    background-color: var(--yellow);
+  }
+}
