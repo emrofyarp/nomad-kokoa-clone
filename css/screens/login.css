@@ -37,13 +37,14 @@
   border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
   /* cursor: not-allowed; */
   /* cursor: progress; */
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px 0px;
   border-radius: 5px;
+  color: white;
 }
 #login-form a {
   text-align: center;
@@ -56,4 +57,5 @@
   background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80)
     right top;
   background-size: 275%;
+  color: white;
 }
